@@ -1,0 +1,297 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.right-menu {
+  display: flex;
+}
+
+.right-menu-item {
+  margin-left: 30px;
+}
+
+.hero-container {
+  width: 100%;
+}
+
+.hero-image {
+  background-image: url('https://5.imimg.com/data5/UI/YT/MY-7871991/spa-massage-500x500.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(63, 8, 151) , rgb(169, 109, 209));
+  color: white;
+}
+
+.trending-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.trending-content {
+  width: 85%;
+}
+
+.trending-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.trending-heading {
+  font-size: 25px;
+}
+
+.trending-card {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 30px #70707029;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.trending-card-image {
+  background-image: url('https://5.imimg.com/data5/UI/YT/MY-7871991/spa-massage-500x500.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px 6px 0px 0px;
+  height: 50%;
+  width: 100%;   
+}
+
+.trending-card-content {
+  padding: 10px;
+}
+
+.trending-card-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trending-card-subheading {
+  font-size: 12px;
+  color: orange;
+  font-weight: bold;
+}
+
+.trending-card-text {
+  font-size: 12px;
+  color: rgb(180, 180, 180);
+  font-weight: bold;
+}
+
+.trending-card-footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+}
+
+.subscribe-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left:190px;
+  margin-top: -300px;
+}
+
+.subscribe-content {
+  background: url('https://cache.marriott.com/marriottassets/marriott/HYDSI/hydsi-spa-9327-hor-feat.jpg?downsize=1024px:*') #606060;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+  height: 150px;
+  width: 60%; 
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  color: white;
+  font-size: 25px;
+}
+
+.subscribe-btn {
+  background-image: linear-gradient(to right, rgb(105, 76, 151) , rgb(161, 128, 184));
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.review-container {
+  width: 100%;
+  display: flex;
+  margin-top: 600px;
+  justify-content: center;
+}
+
+.review-content {
+  width: 85%;
+}
+
+.review-heading {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.review-card {
+  padding: 15px;
+  background: white;
+  box-shadow: 0px 0px 30px #70707029;
+  border-radius: 6px;
+}
+
+.review-head {
+  display: flex;
+  align-items: center;
+}
+
+.review-card-container {
+  width: 100%;
+  display: flex;
+  column-gap: 30px;
+}
+
+.review-profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: url('https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.review-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.review-content-text {
+  font-size: 15px;
+  color: rgb(180, 180, 180);
+  margin-top: 15px;
+}
+
+.download-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.download-image {
+  background: url('https://image.freepik.com/free-vector/hand-holding-mobile-phone-with-chat-messages-screen_74855-19800.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 35%;
+}
+
+.download-right {
+  margin-left: 20px;
+}
+
+.download-right-heading {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.download-right-text {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.download-btn-container {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.play-store-btn {
+  width: 120px;
+  height: 60px;
+  background: url('https://gamecockinn.co.uk/wp-content/uploads/2021/05/Get-It-On-Google-Play-PNG-Clipart.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.app-store-btn {
+  width: 120px;
+  height: 60px;
+  background: url('https://gamecockinn.co.uk/wp-content/uploads/2021/05/Get-It-On-Google-Play-PNG-Clipart.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.footer-content {
+  width: 100%;
+  background: rgb(218, 218, 218);
+  padding: 40px 0px;
+  display: flex;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  border-right: 1px solid rgb(185, 183, 183);
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+.foot-head {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.foot-text {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
